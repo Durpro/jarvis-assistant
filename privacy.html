@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis privacy policy</title>
+<style>
+  :root { color-scheme: light dark; --text: #1d1d1f; --muted: #5f6368; --bg: #fbfbfd; --accent: #1a73e8; }
+  @media (prefers-color-scheme: dark) { :root { --text: #e8eaed; --muted: #9aa0a6; --bg: #151517; --accent: #8ab4f8; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  .lede { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jarvis privacy policy</h1>
+  <p class="lede">Last updated 29 September 2026</p>
+
+  <p>Jarvis is a personal voice assistant that Norman built for himself
+  (<a href="index.html">about Jarvis</a>). He is its only user. This policy explains
+  what Jarvis does with information from his Google accounts.</p>
+
+  <h2>What Jarvis can access</h2>
+  <p>Only what Norman allows through Google sign-in, for his own accounts:</p>
+  <ul>
+    <li><strong>Gmail:</strong> reading messages (for example order and shipping emails),
+    and sending or labelling email when he asks;</li>
+    <li><strong>Google Calendar:</strong> reading and adding events;</li>
+    <li><strong>Google Classroom:</strong> his courses, assignments, due dates, announcements
+    and course materials, read-only;</li>
+    <li><strong>Google Drive:</strong> finding and reading his Docs and Slides, and creating
+    new files when he asks.</li>
+  </ul>
+
+  <h2>How it is used</h2>
+  <ul>
+    <li>Only to answer Norman's own requests, such as "where's my package?" or
+    "what's due this week?", and to carry out actions he asks for.</li>
+    <li>The information is processed on Norman's own computers at home. To produce a
+    spoken answer, the part of it that the request needs (for example an email's subject
+    or an assignment's due date) is sent to OpenAI's API, which generates the reply.</li>
+    <li>Tracking numbers found in shipping emails are looked up with the 17TRACK
+    package-tracking service to get a parcel's status.</li>
+  </ul>
+
+  <h2>What Jarvis never does</h2>
+  <ul>
+    <li>It does not sell, rent or share this information with anyone else.</li>
+    <li>It does not use it for advertising or to build profiles.</li>
+    <li>It does not use it to train AI models.</li>
+    <li>It does not transfer it to anyone except as described above, to answer Norman.</li>
+  </ul>
+  <p>Jarvis's use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+  Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Storage and removal</h2>
+  <p>The sign-in tokens that let Jarvis reach these accounts are kept on Norman's own
+  computers. Access can be withdrawn at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+  after which Jarvis can no longer read anything from that account.</p>
+
+  <h2>Contact</h2>
+  <p><a href="https://github.com/Durpro">github.com/Durpro</a></p>
+</main>
+</body>
+</html>
